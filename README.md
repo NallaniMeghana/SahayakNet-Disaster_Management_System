@@ -1,73 +1,159 @@
-# Welcome to your Lovable project
+# SahayakNet - Disaster Management & Emergency Response Platform
 
-## Project info
+## Overview
 
-**URL**: https://lovable.dev/projects/504ba598-f888-49d2-80da-6e168bd55c95
+SahayakNet is a comprehensive disaster management and emergency response platform designed to improve coordination between citizens, volunteers, community leaders, and authorities during natural or man-made disasters.
 
-## How can I edit this code?
+The platform enables real-time incident reporting, emergency alerts, resource sharing, vulnerability tracking, and disaster response coordination. It is designed to support communities from local neighborhoods to larger regions and can operate with offline-first considerations to ensure accessibility during network disruptions.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## Problem Statement
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/504ba598-f888-49d2-80da-6e168bd55c95) and start prompting.
+During disasters, communities often face challenges such as:
 
-Changes made via Lovable will be committed automatically to this repo.
+* Delayed communication
+* Lack of resource visibility
+* Inefficient volunteer coordination
+* Difficulty identifying vulnerable populations
+* Limited situational awareness
 
-**Use your preferred IDE**
+SahayakNet addresses these challenges through a centralized digital platform for disaster preparedness and response.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Key Features
 
-Follow these steps:
+### Emergency Alerts
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+* Send and receive critical disaster notifications
+* Real-time alert dissemination
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Live Incident Mapping
 
-# Step 3: Install the necessary dependencies.
-npm i
+* Visualize disaster incidents on interactive maps
+* Track affected areas and response activities
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Resource Sharing
+
+* Manage and distribute essential resources
+* Coordinate food, medical supplies, shelters, and relief materials
+
+### Skill Mapping
+
+* Identify volunteers based on skills and expertise
+* Improve emergency response efficiency
+
+### Vulnerability Register
+
+* Maintain records of vulnerable individuals and communities
+* Prioritize support during emergencies
+
+### Community Leadership Management
+
+* Coordinate local leaders and emergency responders
+* Facilitate structured communication
+
+### Disaster Zone Monitoring
+
+* Monitor disaster-prone and affected regions
+* Improve situational awareness
+
+### Secure Authentication
+
+* User registration and login using Supabase Authentication
+* Role-based access control
+
+---
+
+## Technology Stack
+
+### Frontend
+
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+
+### Backend & Database
+
+* Supabase
+* PostgreSQL
+
+### Authentication
+
+* Supabase Authentication
+
+### Development Tools
+
+* Git
+* GitHub
+
+---
+
+## Project Structure
+
+```
+src/
+├── components/
+├── pages/
+├── hooks/
+├── lib/
+├── integrations/
+└── types/
+
+supabase/
+├── functions/
+└── migrations/
+```
+
+---
+
+## Installation
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/NallaniMeghana/SahayakNet-Disaster_Management_System.git
+```
+
+2. Navigate to the project directory
+
+```bash
+cd SahayakNet-Disaster_Management_System
+```
+
+3. Install dependencies
+
+```bash
+npm install --legacy-peer-deps
+```
+
+4. Start the development server
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Future Enhancements
 
-**Use GitHub Codespaces**
+* AI-powered disaster prediction
+* SMS-based emergency alerts
+* Mobile application support
+* Advanced analytics dashboard
+* IoT sensor integration
+* Offline synchronization improvements
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
 
-This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
 
-## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/504ba598-f888-49d2-80da-6e168bd55c95) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## License
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is intended for educational, academic, and research purposes.
