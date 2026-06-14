@@ -148,7 +148,37 @@ npm run dev
 
 ---
 
+## Screenshots
 
+### Home Page
+![Home Page](screenshots/homepage.png)
+
+### Features Page
+![Features](screenshots/features.png)
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Emergency Alerts
+![Emergency Alerts](screenshots/emergency_alert.png)
+
+### Skill Mapping
+![Skill Mapping](screenshots/skill_Mapping.png)
+
+### Community Management
+![Community Management](screenshots/comm_management.png)
+
+### Drills & Simulations
+![Drills](screenshots/drills.png)
+
+### Volunteer Skills
+![Volunteer Skills](screenshots/MySkills.png)
+
+### Login Page
+![Login](screenshots/login.png)
+
+### Responder Login
+![Responder Login](screenshots/login_Responder.png)
 
 
 
